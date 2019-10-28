@@ -62,5 +62,4 @@ Depending on the hardware configuration of your system, the execution time will 
 
 If you have an Nvidia GPU, then you can install `tensorflow-gpu` package. It will make things run a lot faster.
 
-## Help
-If you are facing any difficulty, feel free to create a new [issue](https://github.com/arunponnusamy/gender-detection-keras/issues) or reach out on twitter [@ponnusamy_arun](https://twitter.com/ponnusamy_arun) .
+

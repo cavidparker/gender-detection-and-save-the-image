@@ -97,10 +97,10 @@ while webcam.isOpened():
         face_crop = frame[startY:endY, startX:endX]
         print(label)
         if (label == 'man'):
-        	cv2.imwrite("G:/Devnet/gender-detection-keras/man/" + "man"+str(counter)+".png",face_crop)
+        	cv2.imwrite("F:/Machine Learning & Deep Learning Project/gender-detection and save the image/man/" + "man"+str(counter)+".png",face_crop)
         	counter = counter + 1
         elif (label == 'woman'):
-        	cv2.imwrite("G:/Devnet/gender-detection-keras/woman/" + "woman"+str(counter1)+".png",face_crop)
+        	cv2.imwrite("F:/Machine Learning & Deep Learning Project/gender-detection and save the image/woman/" + "woman"+str(counter1)+".png",face_crop)
         	counter1 = counter1 + 1
     # display output
     cv2.imshow("gender detection", frame)
