@@ -26,7 +26,7 @@ If `pip` is linked to Python 2.7. Use `pip3` instead.
 
 Using **Python virtual environment** is highly recommended.
 
-## Usage
+## Usage :
 
 ### image input
 `$ python detect_gender.py -i <input_image>`
