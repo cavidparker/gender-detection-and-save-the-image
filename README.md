@@ -28,7 +28,7 @@ Using **Python virtual environment** is highly recommended.
 
 ## Usage :
 
-### image input
+### image input :
 `$ python detect_gender.py -i <input_image>`
 
 ### webcam
